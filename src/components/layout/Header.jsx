@@ -31,29 +31,29 @@ const Header = () => {
   return (
     <header className="w-full relative z-40">
       {/* 1. TOP BAR */}
-      <div className="bg-primary-900 text-white text-xs py-2 px-6 hidden lg:flex justify-between items-center border-b border-primary-800">
+      <div className="bg-primary-900 text-white text-sm py-3 px-6 hidden lg:flex justify-between items-center border-b border-primary-800">
         <div className="flex items-center gap-6">
           <a href="tel:+919876543210" className="flex items-center gap-1.5 hover:text-teal-300 transition-colors">
-            <IoCallOutline className="text-teal-400 text-sm" />
+            <IoCallOutline className="text-teal-400 text-base" />
             <span className="font-semibold">Emergency Helpline: +91 98765 43210</span>
           </a>
           <a href="mailto:info@globalcarehospital.com" className="flex items-center gap-1.5 hover:text-teal-300 transition-colors">
-            <IoMailOutline className="text-teal-400 text-sm" />
+            <IoMailOutline className="text-teal-400 text-base" />
             <span>info@globalcarehospital.com</span>
           </a>
           <div className="flex items-center gap-1.5 text-slate-300">
-            <IoTimeOutline className="text-teal-400 text-sm" />
+            <IoTimeOutline className="text-teal-400 text-base" />
             <span>Mon - Sat: 08:00 AM - 08:00 PM</span>
           </div>
         </div>
 
         <div className="flex items-center gap-4">
           <span className="text-slate-400">Follow us:</span>
-          <div className="flex gap-2.5">
-            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoFacebook /></a>
-            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoTwitter /></a>
-            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoLinkedin /></a>
-            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoInstagram /></a>
+          <div className="flex gap-3.5">
+            <a href="#" className="hover:text-teal-300 transition-colors text-base"><IoLogoFacebook /></a>
+            <a href="#" className="hover:text-teal-300 transition-colors text-base"><IoLogoTwitter /></a>
+            <a href="#" className="hover:text-teal-300 transition-colors text-base"><IoLogoLinkedin /></a>
+            <a href="#" className="hover:text-teal-300 transition-colors text-base"><IoLogoInstagram /></a>
           </div>
         </div>
       </div>
@@ -99,19 +99,19 @@ const Header = () => {
 
               {/* MEGA MENU */}
               {isMegaMenuOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[680px] bg-white rounded-3xl shadow-2xl p-6 grid grid-cols-3 gap-4 border border-slate-100 glassmorphism animate-in fade-in slide-in-from-top-2 duration-350">
-                  <div className="col-span-3 pb-3 mb-2 border-b border-slate-50 flex justify-between items-center">
-                    <span className="text-xs font-bold uppercase tracking-wider text-teal-600">Our Clinical Specialities</span>
-                    <Link to="/departments" className="text-xs text-primary-600 hover:underline font-semibold">View All Departments &rarr;</Link>
+                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[560px] bg-slate-950/95 backdrop-blur-md rounded-2xl shadow-2xl p-4.5 grid grid-cols-3 gap-2 border border-slate-800 animate-in fade-in slide-in-from-top-2 duration-350">
+                  <div className="col-span-3 pb-2 mb-1 border-b border-slate-800 flex justify-between items-center">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-teal-400">Our Clinical Specialities</span>
+                    <Link to="/departments" className="text-[11px] text-teal-400 hover:text-teal-300 hover:underline font-bold transition-colors">View All &rarr;</Link>
                   </div>
                   {DEPARTMENTS.slice(0, 9).map((dept) => (
                     <Link
                       key={dept.id}
                       to="/departments"
-                      className="group p-3 rounded-2xl hover:bg-slate-50 transition-colors"
+                      className="group p-2 rounded-xl hover:bg-slate-900 transition-colors"
                     >
-                      <h4 className="font-bold text-slate-800 text-sm group-hover:text-primary-600 transition-colors">{dept.name}</h4>
-                      <p className="text-xs text-slate-400 mt-1 line-clamp-1">{dept.description}</p>
+                      <h4 className="font-bold text-white text-[13px] group-hover:text-teal-300 transition-colors">{dept.name}</h4>
+                      <p className="text-[11px] text-slate-400 mt-0.5 line-clamp-1">{dept.description}</p>
                     </Link>
                   ))}
                 </div>

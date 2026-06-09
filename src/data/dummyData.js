@@ -2,6 +2,8 @@ import cardiologyImg from '../assets/department/Cardiology.jpg';
 import oncologyImg from '../assets/department/Oncology.jpg';
 import orthopedicsImg from '../assets/department/orthopaedics-banner.jpg';
 import newPartnerLogoImg from '../assets/logo/images.png';
+import drAnanyaIyerImg from '../assets/dr_ananya_iyer.png';
+
 
 
 // Dummy Data for Global Care Multi-Speciality Hospital
@@ -138,7 +140,7 @@ export const DOCTORS = [
     departmentId: "neurology",
     availability: "Tue, Thu, Sat (10:00 AM - 03:00 PM)",
     bio: "Dr. Ananya Iyer is an esteemed neurologist specializing in stroke recovery, brain tumors, and chronic migraine therapies.",
-    imageUrl: "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=500"
+    imageUrl: drAnanyaIyerImg
   },
   {
     id: "dr-amit-patel",
