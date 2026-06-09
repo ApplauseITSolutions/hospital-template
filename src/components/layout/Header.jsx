@@ -34,26 +34,26 @@ const Header = () => {
       <div className="bg-primary-900 text-white text-xs py-2 px-6 hidden lg:flex justify-between items-center border-b border-primary-800">
         <div className="flex items-center gap-6">
           <a href="tel:+919876543210" className="flex items-center gap-1.5 hover:text-teal-300 transition-colors">
-            <IoCallOutline className="text-teal-400" />
+            <IoCallOutline className="text-teal-400 text-sm" />
             <span className="font-semibold">Emergency Helpline: +91 98765 43210</span>
           </a>
           <a href="mailto:info@globalcarehospital.com" className="flex items-center gap-1.5 hover:text-teal-300 transition-colors">
-            <IoMailOutline className="text-teal-400" />
+            <IoMailOutline className="text-teal-400 text-sm" />
             <span>info@globalcarehospital.com</span>
           </a>
           <div className="flex items-center gap-1.5 text-slate-300">
-            <IoTimeOutline className="text-teal-400" />
+            <IoTimeOutline className="text-teal-400 text-sm" />
             <span>Mon - Sat: 08:00 AM - 08:00 PM</span>
           </div>
         </div>
 
         <div className="flex items-center gap-4">
           <span className="text-slate-400">Follow us:</span>
-          <div className="flex gap-2">
-            <a href="#" className="hover:text-teal-300 transition-colors"><IoLogoFacebook /></a>
-            <a href="#" className="hover:text-teal-300 transition-colors"><IoLogoTwitter /></a>
-            <a href="#" className="hover:text-teal-300 transition-colors"><IoLogoLinkedin /></a>
-            <a href="#" className="hover:text-teal-300 transition-colors"><IoLogoInstagram /></a>
+          <div className="flex gap-2.5">
+            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoFacebook /></a>
+            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoTwitter /></a>
+            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoLinkedin /></a>
+            <a href="#" className="hover:text-teal-300 transition-colors text-sm"><IoLogoInstagram /></a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ const Header = () => {
           </Link>
 
           {/* Navigation Links - Desktop */}
-          <nav className="hidden lg:flex items-center gap-6 font-medium text-sm text-slate-600">
+          <nav className="hidden lg:flex items-center gap-6 font-medium text-[15px] text-slate-600">
             <NavLink to="/" className={({ isActive }) => `hover:text-primary-600 transition-colors ${isActive ? 'text-primary-600 font-bold' : ''}`}>
               Home
             </NavLink>

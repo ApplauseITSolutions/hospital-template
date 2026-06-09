@@ -235,14 +235,16 @@ const Appointment = () => {
             textarea
           />
 
-          <Button
-            type="submit"
-            variant="primary"
-            size="lg"
-            className="w-full justify-center shadow-lg"
-          >
-            Submit Booking Request
-          </Button>
+          <div className="flex justify-center">
+            <Button
+              type="submit"
+              variant="primary"
+              size="lg"
+              className="shadow-lg"
+            >
+              Submit Booking Request
+            </Button>
+          </div>
         </form>
       </section>
 

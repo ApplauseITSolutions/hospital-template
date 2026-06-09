@@ -130,9 +130,11 @@ const Careers = () => {
                 required
               />
 
-              <Button type="submit" variant="primary" className="w-full justify-center shadow-md pt-3 pb-3">
-                Submit Profile
-              </Button>
+              <div className="flex justify-center">
+                <Button type="submit" variant="primary" className="shadow-md pt-3 pb-3">
+                  Submit Profile
+                </Button>
+              </div>
             </form>
           )}
         </Modal>
