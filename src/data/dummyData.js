@@ -1,6 +1,8 @@
 import cardiologyImg from '../assets/department/Cardiology.jpg';
 import oncologyImg from '../assets/department/Oncology.jpg';
 import orthopedicsImg from '../assets/department/orthopaedics-banner.jpg';
+import newPartnerLogoImg from '../assets/logo/images.png';
+
 
 // Dummy Data for Global Care Multi-Speciality Hospital
 
@@ -367,10 +369,11 @@ export const GALLERY = [
 ];
 
 export const INSURANCE_PARTNERS = [
-  { name: "ICICI Lombard", logoUrl: "https://via.placeholder.com/150x80?text=ICICI+Lombard" },
-  { name: "Star Health Insurance", logoUrl: "https://via.placeholder.com/150x80?text=Star+Health" },
-  { name: "HDFC ERGO", logoUrl: "https://via.placeholder.com/150x80?text=HDFC+ERGO" },
-  { name: "Bajaj Allianz", logoUrl: "https://via.placeholder.com/150x80?text=Bajaj+Allianz" },
-  { name: "Max Bupa", logoUrl: "https://via.placeholder.com/150x80?text=Max+Bupa" },
-  { name: "Reliance General", logoUrl: "https://via.placeholder.com/150x80?text=Reliance" }
+  { name: "Insurance Partner", logoUrl: newPartnerLogoImg },
+  { name: "ICICI Lombard", logoUrl: newPartnerLogoImg },
+  { name: "Star Health Insurance", logoUrl: newPartnerLogoImg },
+  { name: "HDFC ERGO", logoUrl: newPartnerLogoImg },
+  { name: "Bajaj Allianz", logoUrl: newPartnerLogoImg },
+  { name: "Max Bupa", logoUrl: newPartnerLogoImg },
+  { name: "Reliance General", logoUrl: newPartnerLogoImg }
 ];

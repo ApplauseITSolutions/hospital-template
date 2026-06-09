@@ -513,13 +513,43 @@ const Home = () => {
       </section>
 
       {/* 10. INSURANCE PARTNERS */}
-      <section className="py-16 px-6 bg-white border-t border-b border-slate-100">
-        <div className="max-w-7xl mx-auto">
-          <h4 className="text-center font-bold text-xs text-slate-400 uppercase tracking-widest mb-10">Our Network Cashless Insurance Partners</h4>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-            {INSURANCE_PARTNERS.map((partner, idx) => (
-              <img key={idx} src={partner.logoUrl} alt={partner.name} className="h-10 md:h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
-            ))}
+      <section className="py-12 bg-slate-50 border-t border-b border-slate-100 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 mb-10">
+          <SectionTitle
+            subtitle="Trusted Insurance Networks"
+            title="Our Cashless Insurance Partners"
+            description="We support major health insurance networks and TPAs to facilitate a smooth, stress-free cashless hospital admission and billing process."
+          />
+        </div>
+        <div className="w-full">
+          <div className="relative w-full overflow-hidden py-4">
+            {/* Soft fade effect on left and right */}
+            <div className="absolute inset-y-0 left-0 w-16 md:w-32 bg-gradient-to-r from-slate-50 to-transparent z-10 pointer-events-none" />
+            <div className="absolute inset-y-0 right-0 w-16 md:w-32 bg-gradient-to-l from-slate-50 to-transparent z-10 pointer-events-none" />
+            
+            <motion.div 
+              className="flex gap-8 w-max"
+              animate={{ x: ["0%", "-50%"] }}
+              transition={{
+                ease: "linear",
+                duration: 20,
+                repeat: Infinity
+              }}
+            >
+              {/* Double the array for seamless infinite looping */}
+              {[...INSURANCE_PARTNERS, ...INSURANCE_PARTNERS].map((partner, idx) => (
+                <div 
+                  key={idx} 
+                  className="flex items-center justify-center h-24 md:h-28 w-48 md:w-56 p-4 bg-white rounded-2xl border border-slate-100 shadow-[0_4px_15px_-3px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] hover:border-primary-100 hover:scale-105 transition-all duration-300"
+                >
+                  <img 
+                    src={partner.logoUrl} 
+                    alt={partner.name} 
+                    className="max-h-full max-w-full object-contain transition-all duration-300" 
+                  />
+                </div>
+              ))}
+            </motion.div>
           </div>
         </div>
       </section>
