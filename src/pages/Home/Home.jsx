@@ -261,7 +261,7 @@ const Home = () => {
           transition={{ duration: 0.6 }}
           className="space-y-6"
         >
-          <span className="px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-primary-100 text-primary-800">
+          <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-primary-100 text-primary-800">
             About Our Institution
           </span>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 leading-tight">

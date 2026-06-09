@@ -23,7 +23,7 @@ const SectionTitle = ({
       className={`flex flex-col mb-6 max-w-3xl ${align === 'center' ? 'mx-auto' : ''} ${alignClasses[align]}`}
     >
       {subtitle && (
-        <span className="px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-primary-100 text-primary-800 mb-3 inline-block">
+        <span className="px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-primary-100 text-primary-800 mb-5 inline-block">
           {subtitle}
         </span>
       )}
