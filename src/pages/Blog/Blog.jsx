@@ -14,7 +14,7 @@ const Blog = () => {
 
   const filteredBlogs = BLOGS.filter(
     (blog) => blog.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-              blog.summary.toLowerCase().includes(searchTerm.toLowerCase())
+      blog.summary.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -52,7 +52,7 @@ const Blog = () => {
             {filteredBlogs.map((blog) => (
               <Card key={blog.id} className="flex flex-col h-full !p-0 overflow-hidden bg-white border border-slate-100 shadow-premium hover:shadow-premium-hover transition-all duration-300">
                 <img src={blog.imageUrl} alt={blog.title} className="w-full h-52 object-cover" />
-                
+
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center gap-3 text-xs text-slate-400 mb-3 font-semibold">
                     <span className="flex items-center gap-1"><IoCalendarOutline /> {blog.createdAt}</span>
@@ -61,12 +61,12 @@ const Blog = () => {
 
                   <h3 className="font-bold text-slate-800 text-lg mb-3 line-clamp-2">{blog.title}</h3>
                   <p className="text-sm text-slate-500 line-clamp-3 mb-6 flex-grow">{blog.summary}</p>
-                  
+
                   <Button
                     variant="text"
                     onClick={() => setSelectedBlog(blog)}
-                    icon={<IoArrowForwardOutline />}
-                    iconPosition="right"
+                    // icon={<IoArrowForwardOutline />}
+                    iconPosition="left"
                     className="text-primary-600 font-bold hover:text-primary-700 w-fit"
                   >
                     Read Full Article

@@ -214,7 +214,7 @@ export const TESTIMONIALS = [
   {
     id: 1,
     patientName: "Rohan Mehra",
-    patientImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+    patientImage: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200",
     review: "The cardiology team at Global Care saved my father's life during an emergency. The response was immediate, and the doctors explained everything in detail. Highly grateful!",
     rating: 5,
     department: "Cardiology"
@@ -222,7 +222,7 @@ export const TESTIMONIALS = [
   {
     id: 2,
     patientName: "Sneha Sen",
-    patientImage: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+    patientImage: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200",
     review: "I had my knee replacement surgery under Dr. Amit Patel. The advanced robotics used and the post-surgery physical rehab was amazing. I am back to walking without pain!",
     rating: 5,
     department: "Orthopedics"
@@ -230,7 +230,7 @@ export const TESTIMONIALS = [
   {
     id: 3,
     patientName: "Arjun Nair",
-    patientImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+    patientImage: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200",
     review: "Very professional staff and top-notch infrastructure. Booking appointments online is seamless, and waiting times are minimal compared to other hospitals.",
     rating: 4,
     department: "General Care"
@@ -238,7 +238,7 @@ export const TESTIMONIALS = [
   {
     id: 4,
     patientName: "Deepa Rao",
-    patientImage: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+    patientImage: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200",
     review: "We chose Global Care maternity services for our first child. The labor suites were luxurious and the nurses was exceptionally caring. Excellent experience!",
     rating: 5,
     department: "Gynecology"

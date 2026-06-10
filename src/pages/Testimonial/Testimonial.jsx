@@ -46,7 +46,7 @@ const Testimonial = () => {
                 <img
                   src={test.patientImage}
                   alt={test.patientName}
-                  className="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-primary-100"
+                  className="w-14 h-14 rounded-full object-cover shadow-sm border-2 border-primary-100 flex-shrink-0"
                 />
                 <div>
                   <h4 className="font-bold text-slate-800">{test.patientName}</h4>

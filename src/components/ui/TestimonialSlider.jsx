@@ -20,7 +20,8 @@ const TestimonialSlider = ({ testimonials }) => {
             slidesPerView: 2,
           }
         }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 6500, disableOnInteraction: false }}
+        speed={1200}
         pagination={{ clickable: true }}
         loop={true}
         className="pb-16"
@@ -48,7 +49,7 @@ const TestimonialSlider = ({ testimonials }) => {
                 <img
                   src={test.patientImage}
                   alt={test.patientName}
-                  className="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-primary-100"
+                  className="w-14 h-14 rounded-full object-cover shadow-sm border-2 border-primary-100 flex-shrink-0"
                 />
                 <div>
                   <h4 className="font-bold text-slate-800">{test.patientName}</h4>
