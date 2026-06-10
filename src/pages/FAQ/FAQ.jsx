@@ -17,7 +17,7 @@ const FAQ = () => {
       </div>
 
       {/* Accordion List */}
-      <section className="py-12 px-6 max-w-4xl mx-auto">
+      <section className="py-6 px-6 max-w-5xl mx-auto">
         <SectionTitle
           subtitle="Support Hub"
           title="Common Clinical Inquiries"

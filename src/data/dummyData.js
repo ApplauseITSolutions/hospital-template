@@ -3,6 +3,10 @@ import oncologyImg from '../assets/department/Oncology.jpg';
 import orthopedicsImg from '../assets/department/orthopaedics-banner.jpg';
 import newPartnerLogoImg from '../assets/logo/images.png';
 import drAnanyaIyerImg from '../assets/dr_ananya_iyer.png';
+import dermatologyImg from '../assets/department/Dermatology.png';
+import entImg from '../assets/department/ENT.png';
+import urologyImg from '../assets/department/Urology.png';
+import generalMedicineImg from '../assets/department/GeneralMedicine.png';
 
 
 
@@ -59,7 +63,7 @@ export const DEPARTMENTS = [
     name: "Dermatology",
     description: "Advanced medical and cosmetic skin treatments, resolving allergies, acne, hair loss, and chronic skin conditions.",
     icon: "SparklesIcon",
-    imageUrl: "https://images.unsplash.com/photo-1614859324967-bdf461fcf769?auto=format&fit=crop&q=80&w=800",
+    imageUrl: dermatologyImg,
     longDescription: "Our dermatology specialists offer expert treatment for all skin, hair, and nail disorders. We provide clinical dermatology as well as advanced cosmetic treatments like laser therapies, chemical peels, and medical facials.",
     features: ["Clinical & Cosmetic Dermatology", "Advanced Laser Treatment", "Hair Restoration Clinic", "Skin Cancer Screenings"]
   },
@@ -77,7 +81,7 @@ export const DEPARTMENTS = [
     name: "ENT",
     description: "Expert evaluation and management of ear, nose, throat, head, and neck issues including hearing restoration.",
     icon: "EarIcon",
-    imageUrl: "https://images.unsplash.com/photo-1584515906207-f79b273030c1?auto=format&fit=crop&q=80&w=800",
+    imageUrl: entImg,
     longDescription: "Our ENT department treats disorders of the ear, nose, throat, head, and neck. We offer microsurgeries for hearing loss, sinus surgeries, tonsillectomies, and advanced speech therapy clinics.",
     features: ["Hearing Restoration & Cochlear Implants", "Endoscopic Sinus Surgery", "Voice & Swallowing Therapy", "Allergen Immunotherapy"]
   },
@@ -104,7 +108,7 @@ export const DEPARTMENTS = [
     name: "Urology",
     description: "Modern diagnosis and treatment for urinary tract diseases, kidney stones, and prostate health management.",
     icon: "ShieldIcon",
-    imageUrl: "https://images.unsplash.com/photo-1631815541577-dee50570b7fa?auto=format&fit=crop&q=80&w=800",
+    imageUrl: urologyImg,
     longDescription: "Our urologists treat conditions affecting the male and female urinary tract, as well as the male reproductive system. We offer laser lithotripsy for kidney stones and minimally invasive keyhole surgeries.",
     features: ["Laser Stone Management (Lithotripsy)", "Prostate Health Center", "Uro-oncology & Reconstructions", "Pediatric Urology"]
   },
@@ -113,7 +117,7 @@ export const DEPARTMENTS = [
     name: "General Medicine",
     description: "Comprehensive primary healthcare, chronic disease management, vaccinations, and overall wellness consultations.",
     icon: "BriefcaseIcon",
-    imageUrl: "https://images.unsplash.com/photo-1666214280556-f1f94209b67f?auto=format&fit=crop&q=80&w=800",
+    imageUrl: generalMedicineImg,
     longDescription: "Our internal medicine doctors provide outpatient consultations, inpatient treatments, and critical care management. We focus on diagnosing complex multi-system disorders, management of lifestyle diseases like diabetes, and preventive medicine.",
     features: ["Lifestyle & Diabetes Management", "Adult Immunization Center", "Executive Health Screenings", "Geriatric Care Services"]
   }
@@ -188,14 +192,14 @@ export const DOCTORS = [
   },
   {
     id: "dr-siddharth-joshi",
-    name: "Dr. Siddharth Joshi",
+    name: "Dr. Sakshi Joshi",
     qualification: "MS, DNB (ENT), Fellowship in Cochlear Implant",
     experience: 12,
     department: "ENT",
     departmentId: "ent",
     availability: "Tue, Thu, Fri (03:00 PM - 07:00 PM)",
-    bio: "Dr. Siddharth Joshi is an expert in cochlear transplants, micro-ear surgery, and functional endoscopic sinus surgery (FESS).",
-    imageUrl: "https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?auto=format&fit=crop&q=80&w=500"
+    bio: "Dr. Sakshi Joshi is an expert in cochlear transplants, micro-ear surgery, and functional endoscopic sinus surgery (FESS).",
+    imageUrl: drAnanyaIyerImg
   },
   {
     id: "dr-shalini-verma",
@@ -206,7 +210,7 @@ export const DOCTORS = [
     departmentId: "generalmedicine",
     availability: "Mon to Fri (08:00 AM - 11:00 AM)",
     bio: "Dr. Shalini Verma is focused on holistic management of chronic lifestyle diseases like diabetes, hypertension, and thyroid dysfunctions.",
-    imageUrl: "https://images.unsplash.com/photo-1651008011912-b66416bfad7f?auto=format&fit=crop&q=80&w=500"
+    imageUrl: drAnanyaIyerImg
   }
 ];
 

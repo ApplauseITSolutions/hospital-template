@@ -10,11 +10,12 @@ const Input = ({
   error,
   required = false,
   className = '',
+  inputClassName = '',
   textarea = false,
   rows = 4,
   options = [] // for select inputs
 }) => {
-  const inputBaseStyles = 'w-full px-4 py-3 bg-white border border-slate-200 rounded-xl outline-none focus:border-primary-500 focus:ring-2 focus:ring-primary-100 transition-all duration-300 shadow-sm';
+  const inputBaseStyles = `w-full px-4 py-2 bg-white border border-slate-200 rounded-xl outline-none focus:border-primary-500 focus:ring-2 focus:ring-primary-100 transition-all duration-300 shadow-sm ${inputClassName}`;
   const labelStyles = 'block text-sm font-semibold text-slate-700 mb-2';
 
   return (

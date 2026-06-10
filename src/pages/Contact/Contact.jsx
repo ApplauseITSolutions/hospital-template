@@ -102,7 +102,7 @@ const Contact = () => {
               </p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-3">
               <Input
                 label="Full Name"
                 placeholder="e.g. John Doe"
@@ -138,9 +138,10 @@ const Contact = () => {
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 textarea
+                rows={3}
                 required
               />
-              <Button type="submit" variant="primary" className="w-full justify-center shadow-md">
+              <Button type="submit" variant="primary" className="w-full justify-center shadow-md mt-2">
                 Send Message
               </Button>
             </form>
