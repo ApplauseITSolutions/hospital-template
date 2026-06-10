@@ -58,7 +58,7 @@ const Careers = () => {
                   <IoBriefcaseOutline className="text-teal-600 text-lg" />
                   <span className="text-xs font-bold uppercase tracking-wider text-teal-600">{job.department}</span>
                 </div>
-                <h3 className="font-extrabold text-slate-800 text-xl">{job.title}</h3>
+                <h3 className="font-semibold text-slate-800 text-lg">{job.title}</h3>
                 <p className="text-xs text-slate-400 font-semibold">Location: {job.location} | Experience Req: {job.experience}</p>
                 <p className="text-sm text-slate-500 max-w-xl leading-relaxed">{job.description}</p>
               </div>

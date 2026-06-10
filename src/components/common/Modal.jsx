@@ -44,7 +44,7 @@ const Modal = ({ isOpen, onClose, title, children, size = 'md' }) => {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100">
-              <h3 className="text-xl font-bold text-slate-800">{title}</h3>
+              <h3 className="text-lg font-semibold text-slate-800">{title}</h3>
               <button
                 onClick={onClose}
                 className="p-1 rounded-full hover:bg-slate-100 transition-colors text-slate-500 hover:text-slate-700"

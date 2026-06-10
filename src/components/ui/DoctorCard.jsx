@@ -25,7 +25,7 @@ const DoctorCard = ({ doctor }) => {
           <span className="text-xs font-bold uppercase tracking-wider text-teal-600 mb-1 flex items-center gap-1">
             <IoMedkitOutline /> {doctor.department}
           </span>
-          <h3 className="text-xl font-bold text-slate-800 mb-2">{doctor.name}</h3>
+          <h3 className="text-lg font-semibold text-slate-800 mb-2">{doctor.name}</h3>
           <p className="text-sm text-slate-500 font-medium mb-4">{doctor.qualification}</p>
 
           <div className="space-y-2.5 mb-6 text-sm text-slate-600 flex-grow">
@@ -65,7 +65,7 @@ const DoctorCard = ({ doctor }) => {
           </div>
           <div className="w-full md:w-2/3 space-y-4">
             <div>
-              <h4 className="text-2xl font-bold text-slate-900">{doctor.name}</h4>
+              <h4 className="text-xl font-semibold text-slate-900">{doctor.name}</h4>
               <p className="text-primary-600 font-semibold">{doctor.qualification}</p>
             </div>
 

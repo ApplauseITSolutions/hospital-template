@@ -49,7 +49,7 @@ const Testimonial = () => {
                   className="w-14 h-14 rounded-full object-cover shadow-sm border-2 border-primary-100 flex-shrink-0"
                 />
                 <div>
-                  <h4 className="font-bold text-slate-800">{test.patientName}</h4>
+                  <h4 className="text-sm font-semibold text-slate-800">{test.patientName}</h4>
                   <span className="text-xs font-semibold text-teal-600 uppercase tracking-wider">
                     {test.department} Patient
                   </span>

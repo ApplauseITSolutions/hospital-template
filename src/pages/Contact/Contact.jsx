@@ -56,7 +56,7 @@ const Contact = () => {
             <Card className="flex items-start gap-4 p-5">
               <IoLocationOutline className="text-primary-600 text-3xl flex-shrink-0 mt-1" />
               <div>
-                <h4 className="font-bold text-slate-800 text-base">Hospital Address</h4>
+                <h4 className="font-semibold text-slate-800 text-sm">Hospital Address</h4>
                 <p className="text-sm text-slate-500 mt-1">123 Healthcare Avenue, Medical District, Pune, Maharashtra, India</p>
               </div>
             </Card>
@@ -64,7 +64,7 @@ const Contact = () => {
             <Card className="flex items-start gap-4 p-5">
               <IoCallOutline className="text-teal-600 text-3xl flex-shrink-0 mt-1" />
               <div>
-                <h4 className="font-bold text-slate-800 text-base">Helpline Numbers</h4>
+                <h4 className="font-semibold text-slate-800 text-sm">Helpline Numbers</h4>
                 <p className="text-sm text-slate-500 mt-1">Emergency Dispatch: +91 98765 43210</p>
                 <p className="text-sm text-slate-500">General OPD Desk: +91 98765 43215</p>
               </div>
@@ -73,7 +73,7 @@ const Contact = () => {
             <Card className="flex items-start gap-4 p-5">
               <IoMailOutline className="text-primary-600 text-3xl flex-shrink-0 mt-1" />
               <div>
-                <h4 className="font-bold text-slate-800 text-base">Email Desk</h4>
+                <h4 className="font-semibold text-slate-800 text-sm">Email Desk</h4>
                 <p className="text-sm text-slate-500 mt-1">info@globalcarehospital.com</p>
               </div>
             </Card>
@@ -81,7 +81,7 @@ const Contact = () => {
             <Card className="flex items-start gap-4 p-5">
               <IoTimeOutline className="text-teal-600 text-3xl flex-shrink-0 mt-1" />
               <div>
-                <h4 className="font-bold text-slate-800 text-base">Working Hours</h4>
+                <h4 className="font-semibold text-slate-800 text-sm">Working Hours</h4>
                 <p className="text-sm text-slate-500 mt-1">Emergency Unit: 24 Hours / 365 Days</p>
                 <p className="text-sm text-slate-500">OPD & Administration: Mon - Sat (08:00 AM - 08:00 PM)</p>
               </div>

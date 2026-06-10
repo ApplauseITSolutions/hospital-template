@@ -70,7 +70,7 @@ const About = () => {
             <div className="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
               <IoEyeOutline />
             </div>
-            <h3 className="text-xl font-bold text-slate-800 mb-3">Our Vision</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-3">Our Vision</h3>
             <p className="text-sm text-slate-500 leading-relaxed">
               To be the most trusted healthcare institution, recognized globally for clinical outcomes, medical ethics, and compassionate patient care.
             </p>
@@ -80,7 +80,7 @@ const About = () => {
             <div className="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
               <IoCompassOutline />
             </div>
-            <h3 className="text-xl font-bold text-slate-800 mb-3">Our Mission</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-3">Our Mission</h3>
             <p className="text-sm text-slate-500 leading-relaxed">
               To deliver clinical excellence using evidence-based medical treatments in a safe environment, supported by continuous learning and research.
             </p>
@@ -90,7 +90,7 @@ const About = () => {
             <div className="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
               <IoHeartOutline />
             </div>
-            <h3 className="text-xl font-bold text-slate-800 mb-3">Core Values</h3>
+            <h3 className="text-lg font-semibold text-slate-800 mb-3">Core Values</h3>
             <p className="text-sm text-slate-500 leading-relaxed">
               Integrity, Empathy, Quality Excellence, and Team Collaboration are the guiding values that define our medical ethics.
             </p>
@@ -135,7 +135,7 @@ const About = () => {
                   className="w-32 h-32 rounded-2xl object-cover border border-slate-100 shadow-sm"
                 />
                 <div className="space-y-2">
-                  <h4 className="font-bold text-slate-900 text-lg leading-tight">{leader.name}</h4>
+                  <h4 className="font-semibold text-slate-900 text-base leading-tight">{leader.name}</h4>
                   <span className="text-teal-600 text-xs font-bold uppercase tracking-wider block">{leader.role}</span>
                   <p className="text-xs text-slate-500 leading-relaxed">{leader.bio}</p>
                 </div>

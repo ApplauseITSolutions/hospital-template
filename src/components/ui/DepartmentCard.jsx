@@ -20,7 +20,7 @@ const DepartmentCard = ({ dept }) => {
         </div>
 
         <div className="p-6 flex flex-col flex-grow">
-          <h3 className="text-xl font-bold text-slate-800 mb-2">{dept.name}</h3>
+          <h3 className="text-lg font-semibold text-slate-800 mb-2">{dept.name}</h3>
           <p className="text-sm text-slate-500 line-clamp-3 leading-relaxed flex-grow mb-6">
             {dept.description}
           </p>

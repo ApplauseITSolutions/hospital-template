@@ -59,7 +59,7 @@ const Blog = () => {
                     <span className="flex items-center gap-1"><IoPersonOutline /> {blog.author}</span>
                   </div>
 
-                  <h3 className="font-bold text-slate-800 text-lg mb-3 line-clamp-2">{blog.title}</h3>
+                  <h3 className="font-semibold text-slate-800 text-base mb-3 line-clamp-2">{blog.title}</h3>
                   <p className="text-sm text-slate-500 line-clamp-3 mb-6 flex-grow">{blog.summary}</p>
 
                   <Button

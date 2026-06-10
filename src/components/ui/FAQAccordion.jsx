@@ -22,7 +22,7 @@ const FAQAccordion = ({ faqs }) => {
               onClick={() => toggleAccordion(index)}
               className="w-full flex items-center justify-between py-4 px-6 text-left focus:outline-none"
             >
-              <span className="font-bold text-slate-800 md:text-lg pr-4">{faq.question}</span>
+              <span className="font-semibold text-slate-800 md:text-lg pr-4">{faq.question}</span>
               <span className={`p-1.5 rounded-full ${isOpen ? 'bg-primary-50 text-primary-600' : 'bg-slate-50 text-slate-400'} transition-colors duration-300`}>
                 {isOpen ? <IoRemoveOutline className="text-xl" /> : <IoAddOutline className="text-xl" />}
               </span>

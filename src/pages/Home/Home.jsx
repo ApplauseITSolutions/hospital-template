@@ -500,7 +500,7 @@ const Home = () => {
                   <span className="text-xs text-primary-600 font-bold uppercase tracking-wider mb-2 inline-block">
                     {blog.category}
                   </span>
-                  <h3 className="font-bold text-slate-800 text-lg mb-2 line-clamp-2">{blog.title}</h3>
+                  <h3 className="font-semibold text-slate-800 text-base mb-2 line-clamp-2">{blog.title}</h3>
                   <p className="text-sm text-slate-500 line-clamp-3 mb-6 flex-grow">{blog.summary}</p>
                   <Link to="/blog" className="text-sm font-semibold text-primary-600 hover:text-primary-700 flex items-center gap-1 mt-auto">
                     Read Full Article <IoArrowForwardOutline />

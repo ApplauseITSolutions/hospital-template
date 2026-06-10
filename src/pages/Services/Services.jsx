@@ -94,7 +94,7 @@ const Services = () => {
               <div className="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
                 {serv.icon}
               </div>
-              <h3 className="font-bold text-slate-800 text-lg mb-3">{serv.title}</h3>
+              <h3 className="font-semibold text-slate-800 text-base mb-3">{serv.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed flex-grow">{serv.desc}</p>
             </Card>
           ))}
@@ -115,7 +115,7 @@ const Services = () => {
               <Card key={idx} className="p-8 flex flex-col justify-between h-full relative overflow-hidden">
                 <div className="space-y-6">
                   <div>
-                    <h3 className="font-bold text-slate-800 text-xl">{pkg.name}</h3>
+                    <h3 className="font-semibold text-slate-800 text-lg">{pkg.name}</h3>
                     <span className="block text-4xl font-extrabold text-primary-600 mt-3">{pkg.price}</span>
                   </div>
 
