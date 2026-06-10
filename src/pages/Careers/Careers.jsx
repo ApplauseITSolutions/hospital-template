@@ -52,7 +52,7 @@ const Careers = () => {
 
         <div className="grid grid-cols-1 gap-6 max-w-7xl mx-auto">
           {CAREERS.map((job) => (
-            <Card key={job.id} className="p-8 bg-white border border-slate-100 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 shadow-premium hover:shadow-premium-hover transition-all duration-300">
+            <Card key={job.id} className="p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
               <div className="space-y-2.5">
                 <div className="flex items-center gap-2">
                   <IoBriefcaseOutline className="text-teal-600 text-lg" />

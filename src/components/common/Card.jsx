@@ -7,8 +7,8 @@ const Card = ({
   hoverable = true,
   glass = false
 }) => {
-  const baseClasses = 'rounded-3xl border border-slate-100 bg-white p-6 transition-all duration-500 shadow-premium';
-  const hoverClasses = hoverable ? 'hover:-translate-y-1.5 hover:shadow-premium-hover hover:border-primary-100' : '';
+  const baseClasses = 'rounded-3xl border border-slate-300 bg-white p-6 transition-all duration-500 shadow-premium';
+  const hoverClasses = hoverable ? 'hover:-translate-y-1.5 hover:shadow-premium-hover hover:border-teal-500' : '';
   const glassClasses = glass ? 'glassmorphism' : '';
 
   return (

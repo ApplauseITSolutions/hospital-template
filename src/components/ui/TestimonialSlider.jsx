@@ -28,7 +28,7 @@ const TestimonialSlider = ({ testimonials }) => {
       >
         {testimonials.map((test) => (
           <SwiperSlide key={test.id}>
-            <Card className="h-full relative overflow-hidden flex flex-col justify-between p-8 border border-slate-100 rounded-3xl bg-white shadow-premium">
+            <Card className="h-full relative overflow-hidden flex flex-col justify-between p-8">
               <FaQuoteLeft className="absolute right-6 top-6 text-slate-100/30 text-7xl -z-10" />
               
               <div className="space-y-4">

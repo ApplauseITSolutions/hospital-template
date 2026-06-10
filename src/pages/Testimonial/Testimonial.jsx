@@ -27,7 +27,7 @@ const Testimonial = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {TESTIMONIALS.map((test) => (
-            <Card key={test.id} className="relative overflow-hidden flex flex-col justify-between p-8 border border-slate-100 rounded-3xl bg-white shadow-premium">
+            <Card key={test.id} className="relative overflow-hidden flex flex-col justify-between p-8">
               <FaQuoteLeft className="absolute right-6 top-6 text-slate-100/30 text-7xl -z-10" />
               
               <div className="space-y-4">

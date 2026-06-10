@@ -50,7 +50,7 @@ const Blog = () => {
         {filteredBlogs.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredBlogs.map((blog) => (
-              <Card key={blog.id} className="flex flex-col h-full !p-0 overflow-hidden bg-white border border-slate-100 shadow-premium hover:shadow-premium-hover transition-all duration-300">
+              <Card key={blog.id} className="flex flex-col h-full !p-0 overflow-hidden">
                 <img src={blog.imageUrl} alt={blog.title} className="w-full h-52 object-cover" />
 
                 <div className="p-6 flex flex-col flex-grow">

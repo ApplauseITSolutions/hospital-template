@@ -494,7 +494,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {BLOGS.map((blog) => (
-              <Card key={blog.id} className="flex flex-col h-full !p-0 overflow-hidden bg-white border border-slate-100">
+              <Card key={blog.id} className="flex flex-col h-full !p-0 overflow-hidden">
                 <img src={blog.imageUrl} alt={blog.title} className="w-full h-48 object-cover" />
                 <div className="p-6 flex flex-col flex-grow">
                   <span className="text-xs text-primary-600 font-bold uppercase tracking-wider mb-2 inline-block">

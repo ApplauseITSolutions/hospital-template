@@ -66,7 +66,7 @@ const About = () => {
       {/* Vision & Mission */}
       <section className="bg-slate-100/60 py-12 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="flex flex-col items-center text-center p-8 bg-white border border-slate-200">
+          <Card className="flex flex-col items-center text-center p-8">
             <div className="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
               <IoEyeOutline />
             </div>
@@ -76,7 +76,7 @@ const About = () => {
             </p>
           </Card>
 
-          <Card className="flex flex-col items-center text-center p-8 bg-white border border-slate-200">
+          <Card className="flex flex-col items-center text-center p-8">
             <div className="w-14 h-14 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
               <IoCompassOutline />
             </div>
@@ -86,7 +86,7 @@ const About = () => {
             </p>
           </Card>
 
-          <Card className="flex flex-col items-center text-center p-8 bg-white border border-slate-200">
+          <Card className="flex flex-col items-center text-center p-8">
             <div className="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
               <IoHeartOutline />
             </div>
@@ -128,7 +128,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {LEADERSHIP.map((leader, idx) => (
-              <Card key={idx} className="flex flex-col md:flex-row gap-6 p-6 bg-white border border-slate-100 items-center text-center md:text-left">
+              <Card key={idx} className="flex flex-col md:flex-row gap-6 p-6 items-center text-center md:text-left">
                 <img
                   src={leader.imageUrl}
                   alt={leader.name}

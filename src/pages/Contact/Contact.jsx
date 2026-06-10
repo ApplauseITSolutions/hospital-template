@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
 
           <div className="space-y-4">
-            <Card className="flex items-start gap-4 p-5 bg-white border border-slate-100">
+            <Card className="flex items-start gap-4 p-5">
               <IoLocationOutline className="text-primary-600 text-3xl flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold text-slate-800 text-base">Hospital Address</h4>
@@ -61,7 +61,7 @@ const Contact = () => {
               </div>
             </Card>
 
-            <Card className="flex items-start gap-4 p-5 bg-white border border-slate-100">
+            <Card className="flex items-start gap-4 p-5">
               <IoCallOutline className="text-teal-600 text-3xl flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold text-slate-800 text-base">Helpline Numbers</h4>
@@ -70,7 +70,7 @@ const Contact = () => {
               </div>
             </Card>
 
-            <Card className="flex items-start gap-4 p-5 bg-white border border-slate-100">
+            <Card className="flex items-start gap-4 p-5">
               <IoMailOutline className="text-primary-600 text-3xl flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold text-slate-800 text-base">Email Desk</h4>
@@ -78,7 +78,7 @@ const Contact = () => {
               </div>
             </Card>
 
-            <Card className="flex items-start gap-4 p-5 bg-white border border-slate-100">
+            <Card className="flex items-start gap-4 p-5">
               <IoTimeOutline className="text-teal-600 text-3xl flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold text-slate-800 text-base">Working Hours</h4>

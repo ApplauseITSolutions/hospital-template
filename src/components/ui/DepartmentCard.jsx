@@ -9,7 +9,7 @@ const DepartmentCard = ({ dept }) => {
 
   return (
     <>
-      <Card className="flex flex-col h-full overflow-hidden !p-0 border border-slate-100 rounded-3xl bg-white shadow-premium transition-all duration-300 hover:shadow-premium-hover">
+      <Card className="flex flex-col h-full overflow-hidden !p-0">
         <div className="relative h-48 overflow-hidden group">
           <img
             src={dept.imageUrl}

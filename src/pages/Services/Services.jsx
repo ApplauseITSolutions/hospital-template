@@ -90,7 +90,7 @@ const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {SERVICES.map((serv, idx) => (
-            <Card key={idx} className="flex flex-col p-8 bg-white border border-slate-100 h-full">
+            <Card key={idx} className="flex flex-col p-8 h-full">
               <div className="w-14 h-14 rounded-2xl bg-primary-50 text-primary-600 flex items-center justify-center text-3xl mb-6 shadow-sm">
                 {serv.icon}
               </div>
@@ -112,7 +112,7 @@ const Services = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {PACKAGES.map((pkg, idx) => (
-              <Card key={idx} className="p-8 bg-white border border-slate-200 flex flex-col justify-between h-full relative overflow-hidden">
+              <Card key={idx} className="p-8 flex flex-col justify-between h-full relative overflow-hidden">
                 <div className="space-y-6">
                   <div>
                     <h3 className="font-bold text-slate-800 text-xl">{pkg.name}</h3>
